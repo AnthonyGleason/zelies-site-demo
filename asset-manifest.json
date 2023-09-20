@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/zelies-site-demo/static/css/main.e6c13ad2.css",
-    "main.js": "/zelies-site-demo/static/js/main.2119c251.js",
+    "main.css": "/zelies-site-demo/static/css/main.c1960744.css",
+    "main.js": "/zelies-site-demo/static/js/main.6b47d0fb.js",
     "static/js/787.1c38bd70.chunk.js": "/zelies-site-demo/static/js/787.1c38bd70.chunk.js",
     "index.html": "/zelies-site-demo/index.html",
-    "main.e6c13ad2.css.map": "/zelies-site-demo/static/css/main.e6c13ad2.css.map",
-    "main.2119c251.js.map": "/zelies-site-demo/static/js/main.2119c251.js.map",
+    "main.c1960744.css.map": "/zelies-site-demo/static/css/main.c1960744.css.map",
+    "main.6b47d0fb.js.map": "/zelies-site-demo/static/js/main.6b47d0fb.js.map",
     "787.1c38bd70.chunk.js.map": "/zelies-site-demo/static/js/787.1c38bd70.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.2119c251.js"
+    "static/css/main.c1960744.css",
+    "static/js/main.6b47d0fb.js"
   ]
 }
