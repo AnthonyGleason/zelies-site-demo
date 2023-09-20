@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/zelies-site-demo/static/css/main.273fad75.css",
+    "main.css": "/zelies-site-demo/static/css/main.c02d376c.css",
     "main.js": "/zelies-site-demo/static/js/main.db684bf2.js",
     "static/js/787.1c38bd70.chunk.js": "/zelies-site-demo/static/js/787.1c38bd70.chunk.js",
     "static/media/hero.webp": "/zelies-site-demo/static/media/hero.43b25ae57a09cc890d64.webp",
@@ -9,12 +9,12 @@
     "static/media/linkedin.svg": "/zelies-site-demo/static/media/linkedin.639bdbc0047183253e2bc4ac671bfda9.svg",
     "static/media/mail.svg": "/zelies-site-demo/static/media/mail.95be588d097121946ebaab903263d4d7.svg",
     "static/media/resume.svg": "/zelies-site-demo/static/media/resume.7df2be30bb47d8e849f985074ea1dda9.svg",
-    "main.273fad75.css.map": "/zelies-site-demo/static/css/main.273fad75.css.map",
+    "main.c02d376c.css.map": "/zelies-site-demo/static/css/main.c02d376c.css.map",
     "main.db684bf2.js.map": "/zelies-site-demo/static/js/main.db684bf2.js.map",
     "787.1c38bd70.chunk.js.map": "/zelies-site-demo/static/js/787.1c38bd70.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.273fad75.css",
+    "static/css/main.c02d376c.css",
     "static/js/main.db684bf2.js"
   ]
 }
