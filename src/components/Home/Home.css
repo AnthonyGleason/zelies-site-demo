@@ -1,0 +1,102 @@
+.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.about-me{
+  color: black;
+  padding: 1em;
+  max-width: 1000px;
+  text-align: center;
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  flex-direction: column;
+  font-family: 'Dancing Script';
+  border-bottom: 2px solid black;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.about-me p{
+  font-family: 'Roboto';
+}
+
+.latest-blog-posts{
+  padding: 1em;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 2px solid black;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.latest-blog-posts h2{
+  font-size: 30px;
+  font-family: 'Dancing Script';
+}
+.latest-blog-posts ol{
+  list-style-type: none;
+}
+@media screen and (width>936px) {
+  .latest-blog-posts ol li{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 1fr;
+    grid-template-areas: 
+    "postImg postHeading"
+    "postImg postContent";
+    column-gap: 20px;
+    max-width: 1000px;
+  }
+}
+@media screen and (width<935px) {
+  .latest-blog-posts ol li{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .post-desc{
+    max-width: 800px;
+  }
+}
+.latest-blog-posts ol li img{
+  grid-area: postImg;
+  width: 100%;
+  max-width: 900px;
+  border-radius: 18px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.latest-blog-posts ol li .post-heading{
+  grid-area: postHeading;
+  font-family: 'Dancing Script';
+  font-size: 30px;
+  text-align: center;
+}
+.latest-blog-posts ol li .post-content{
+  grid-area: postContent;
+  text-align: center;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.latest-blog-posts ol li .post-content button{
+  color: white;
+  padding: 10px;
+  background-color: black;
+  font-size: 26px;
+  width: 100%;
+  font-family: 'Dancing Script';
+  border: 1px solid black;
+  border-radius: 8px;
+  max-width: 600px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}

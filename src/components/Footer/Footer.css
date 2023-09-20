@@ -1,0 +1,22 @@
+.footer{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 2em;
+}
+.footer h3{
+  font-family: 'Dancing Script';
+  font-size: 30px;
+}
+.footer ol{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.footer ol li a img{
+  min-width: 35px;
+  cursor: pointer;
+  color: #c5c4c4;
+}

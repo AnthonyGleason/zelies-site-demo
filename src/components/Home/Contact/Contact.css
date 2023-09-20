@@ -1,0 +1,81 @@
+.contact-wrapper{
+  max-width: 1000px;
+  width: 100%;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.contact-wrapper .contact-header h4{
+  font-family: 'Dancing Script';
+  font-size: 30px;
+}
+.contact-wrapper form{
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 3fr 1fr;
+  grid-template-areas: 
+  "firstName firstName"
+  "lastName lastName"
+  "email phone"
+  "subject subject"
+  "message message"
+  "contactSubmit contactSubmit";
+  row-gap: 10px;
+  column-gap: 10px;
+  width: 100%;
+  padding-bottom: 1em;
+  border-bottom: 2px solid black;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.contact-wrapper input,
+.contact-wrapper textarea{
+  border: 3px solid black;
+  min-height: 50px;
+  font-size: 20px;
+  width: 100%;
+  padding: 1em;
+  border-radius: 8px;
+}
+.contact-wrapper input::placeholder,
+.contact-wrapper textarea::placeholder{
+  font-family: 'Dancing Script';
+  font-size: 24px;
+}
+.contact-wrapper .subject-input{
+  grid-area: subject;
+}
+.contact-wrapper .firstname-input{
+  grid-area: firstName;
+}
+.contact-wrapper .lastname-input{
+  grid-area: lastName;
+}
+.contact-wrapper .email-input{
+  grid-area:  email;
+}
+.contact-wrapper .phone-input{
+  grid-area: phone;
+}
+.contact-wrapper .message-input{
+  grid-area: message;
+}
+.contact-wrapper .contact-submit{
+  grid-area: contactSubmit;
+}
+.contact-wrapper button{
+  color: white;
+  padding: 1em 1.5em;
+  background-color: black;
+  font-size: 26px;
+  font-family: 'Dancing Script';
+  border: 1px solid black;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
