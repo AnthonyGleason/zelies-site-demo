@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/zelies-site-demo/static/css/main.b9538b67.css",
-    "main.js": "/zelies-site-demo/static/js/main.206b9c21.js",
+    "main.css": "/zelies-site-demo/static/css/main.54085dcb.css",
+    "main.js": "/zelies-site-demo/static/js/main.e64a2a05.js",
     "static/js/787.1c38bd70.chunk.js": "/zelies-site-demo/static/js/787.1c38bd70.chunk.js",
-    "static/media/hero.webp": "/zelies-site-demo/static/media/hero.0576be7380ccaa2009b3.webp",
+    "static/media/hero.webp": "/zelies-site-demo/static/media/hero.361182283bea37ffa72e.webp",
     "index.html": "/zelies-site-demo/index.html",
-    "main.b9538b67.css.map": "/zelies-site-demo/static/css/main.b9538b67.css.map",
-    "main.206b9c21.js.map": "/zelies-site-demo/static/js/main.206b9c21.js.map",
+    "static/media/linkedin.svg": "/zelies-site-demo/static/media/linkedin.639bdbc0047183253e2bc4ac671bfda9.svg",
+    "static/media/mail.svg": "/zelies-site-demo/static/media/mail.95be588d097121946ebaab903263d4d7.svg",
+    "static/media/resume.svg": "/zelies-site-demo/static/media/resume.7df2be30bb47d8e849f985074ea1dda9.svg",
+    "main.54085dcb.css.map": "/zelies-site-demo/static/css/main.54085dcb.css.map",
+    "main.e64a2a05.js.map": "/zelies-site-demo/static/js/main.e64a2a05.js.map",
     "787.1c38bd70.chunk.js.map": "/zelies-site-demo/static/js/787.1c38bd70.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9538b67.css",
-    "static/js/main.206b9c21.js"
+    "static/css/main.54085dcb.css",
+    "static/js/main.e64a2a05.js"
   ]
 }
